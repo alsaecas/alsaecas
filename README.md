@@ -9,6 +9,7 @@
   <a href="https://www.linkedin.com/in/alejandrosaezc/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://t.me/alsaecas/"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-Message-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+  <a href="https://useme.com/en/roles/contractor/alejandro,231245/"><img alt="Useme" src="https://img.shields.io/badge/Useme-Hire%20Me-000000?style=for-the-badge&labelColor=A4FF01" /></a>
   <a href="https://www.upwork.com/freelancers/~01d68f79df1f7a6584?"><img alt="Upwork" src="https://img.shields.io/badge/Upwork-Hire%20Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" /></a>
 </p>
 
