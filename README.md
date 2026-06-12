@@ -1,86 +1,122 @@
-<!-- Profile README — Alejandro Saez Castells | Blockchain / Smart Contracts / Full-Stack -->
+<!-- Profile README — Alejandro Saez Castells | Backend & Smart Contract Engineer -->
 
 <h1 align="center">Alejandro Saez Castells</h1>
-<p align="center">
-  Blockchain / Smart Contracts (Solidity) • Full-Stack Engineer • Industrial Automation background
-</p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/alejandrosaezc/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://t.me/alsaecas/"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-Message-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-  <a href="https://useme.com/en/roles/contractor/alejandro,231245/"><img alt="Useme" src="https://img.shields.io/badge/Useme-Hire%20Me-000000?style=for-the-badge&labelColor=A4FF01" /></a>
-  <a href="https://www.upwork.com/freelancers/~01d68f79df1f7a6584?"><img alt="Upwork" src="https://img.shields.io/badge/Upwork-Hire%20Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" /></a>
+  Backend & Smart Contract Engineer · Solidity/EVM · Java/Spring · TypeScript/Node · Real-world Web3 systems
+</p>
+
+<p align="center">
+  <a href="https://www.alsaecas.dev/">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-alsaecas.dev-111111?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/alejandrosaezc/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/alsaecas">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-alsaecas-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
 
 ---
 
-### About me
-I’m a **Full-Stack Software Engineer** with a strong background in **Industrial Automation & Controls** and a current focus on **Blockchain engineering** (smart contracts, DeFi, and security).  
-I like building production-ready systems: **clear specs, strong testing, and measurable outcomes**.
+## About
 
-- 🧱 Building **smart contracts & dApps** (Solidity, ERC standards, DeFi primitives)
-- 🛠️ Experience delivering automation projects in the **car manufacturing industry** across Europe
-- 🎓 In a **Blockchain Accelerator**: +15 hands-on projects (DEX, tokens, marketplaces, swaps, LPs, yield farming, lending/borrowing, security)
-- 🏆 **Hackathon winner**: “Blockchain-based turnaround checklist” (Camino Network × Vueling) — on-chain task tracking, SLA/KPIs & ERC-721 badges
+I build production-oriented backend systems, smart contracts, and Web3 integrations.
 
----
+My background combines **industrial automation**, **backend engineering**, and **blockchain development**. That gives me a practical systems mindset: model the real workflow first, keep state transitions explicit, handle edge cases, and design software around reliability, permissions, timing, and failure modes.
 
-### What I’m looking for
-**Blockchain / Smart Contract Engineer** roles where I can ship real product, improve protocol safety, and help teams move fast with confidence.
+Current technical focus:
 
----
-
-### Tech stack
-**Blockchain:** Solidity • Foundry/Hardhat • EVM • ERC-20 / ERC-721 • DeFi (AMMs, LPs, lending) • Security mindset  
-**Backend:** Java • Spring • .NET • Python • REST APIs  
-**Frontend:** React • TypeScript • Web3 wallet integrations  
-**Industrial:** PLCs • SCADA • OT/IT integration (automation & controls)
-
-<p>
-  <img alt="Solidity" src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
-  <img alt="Ethereum" src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" />
-  <img alt="Foundry" src="https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=forgejo&logoColor=white" />
-  <img alt="OpenZeppelin" src="https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white" />
-  <img alt="Hardhat" src="https://img.shields.io/badge/Hardhat-F7DF1E?style=for-the-badge&logo=hardhat&logoColor=000000" />
-  <br/>
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img alt="GraphQL" src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <br/>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-</p>
-
+* **Backend systems:** Java/Spring Boot, TypeScript/Node.js, REST APIs, PostgreSQL, authentication, OpenAPI, CI/CD
+* **Smart contracts:** Solidity, Foundry, Hardhat, EVM, ERC standards, access control, state machines, testing
+* **Web3 integrations:** wallets, contract interactions, tokenized workflows, on-chain/off-chain boundaries
+* **Real-world workflows:** roles, permissions, deadlines, KPIs, certificates, incentives, traceability
+* **Industrial systems thinking:** automation, controls, OT/IT integration, operational constraints, debugging under real-world pressure
 
 ---
 
-### Highlight project (Hackathon)
-**On-chain flight turnaround checklist (Camino Network × Vueling)**  
-Smart contract per flight turnaround: task assignments, on-chain completion, deadlines/SLA logic, KPI computation, and a turnaround certificate hash.  
-Bonus: **ERC-721 “TurnaroundBadge” NFTs** minted for top performers (IPFS metadata/images).
+## Selected engineering work
 
-> If you’re building in **web3, DeFi, or tokenized incentive systems**, I’m happy to connect.
+### 🏆 On-chain Flight Turnaround Checklist
+
+**Camino Network × Vueling · Decode Travel Barcelona**
+
+Smart-contract-backed aviation workflow where each flight turnaround can be modeled through task ownership, completion states, SLA/deadline logic, KPI computation, certification, and ERC-721 reward badges.
+
+**Focus:** Solidity · TypeScript · Camino Network · IPFS · ERC-721 · workflow state · operational process modeling
+**Repo:** https://github.com/aanit-app/decode-travel-with-vueling
 
 ---
 
-## Featured projects (Blockchain)
+### 🎟️ Fallas Passport — ERC-1155 location-based checkpoints
 
-- 🏆 **On-chain Flight Turnaround Checklist (Camino Network × Vueling)**  
-  Smart contract per flight turnaround: task ownership, deadlines, SLA logic, KPI computation, and an on-chain certificate.  
-  Bonus: **ERC-721 “TurnaroundBadge”** NFTs with IPFS metadata for top performers.  
-  → Repo: https://github.com/aanit-app/decode-travel-with-vueling
+A location-based NFT passport concept for Fallas in Valencia. Visitors claim checkpoint stamps by scanning QR/NFC on-site; the contract verifies EIP-712 signed vouchers instead of storing physical location on-chain.
 
-- 🔐 **ETH Savings Vault (Solidity + Foundry)**  
-  Time-locked deposits, early-withdraw penalties, per-user caps, pausability, and security-focused testing.  
-  → Repo: https://github.com/alsaecas/savings-bank-pro-foundry
+**Focus:** Solidity · Foundry · ERC-1155 · EIP-712 · signed vouchers · replay protection · QR/NFC flow
+**Repo:** https://github.com/alsaecas/fallas-passport-1155
 
-- 🧾 **Chain Bounty Marketplace (Solidity)**  
-  Create bounties, escrow funds, accept submissions, and release payouts with clear on-chain traceability.  
-  → Repo: https://github.com/alsaecas/Chain-Bounty-Marketplace
+---
 
+### 🔐 Fixed-Amount ERC20 Staking with ETH Rewards
+
+A production-style staking system where users stake a fixed amount of ERC20 tokens and claim ETH rewards by period. Includes admin flows, reward funding, custom errors, events, scripts, and security-focused testing.
+
+**Focus:** Solidity · Foundry · SafeERC20 · reentrancy protection · rewards · test coverage · scripts
+**Repo:** https://github.com/alsaecas/erc20-staking-eth-rewards
+
+---
+
+### 🏦 SavingsBankPro — ETH time-locked savings
+
+A Solidity/Foundry smart contract system for multiple ETH savings plans with unlock times, early-withdraw penalties, treasury routing, pause controls, and security tests.
+
+**Focus:** Solidity · Foundry · time locks · penalties · pausable flows · reentrancy protection · fuzz testing
+**Repo:** https://github.com/alsaecas/savings-bank-pro-foundry
+
+---
+
+### 🧾 Chain Bounty Marketplace
+
+An on-chain bounty marketplace prototype with ERC20 rewards, escrowed bounty creation, work submissions, winner selection, deadline handling, and cancellation flows.
+
+**Focus:** Solidity · OpenZeppelin · ERC20 · escrow · marketplace logic · deadline-based flows
+**Repo:** https://github.com/alsaecas/Chain-Bounty-Marketplace
+
+---
+
+## Technical stack
+
+### Smart contracts & Web3
+
+Solidity · Foundry · Hardhat · EVM · ERC-20 · ERC-721 · ERC-1155 · OpenZeppelin · EIP-712 · IPFS · DeFi primitives · wallet integrations
+
+### Backend systems
+
+Java · Spring Boot · Node.js · TypeScript · REST APIs · PostgreSQL · MongoDB · Keycloak · OpenAPI/Swagger · Docker · GitHub Actions · GitLab CI/CD
+
+### Frontend & product
+
+React · TypeScript · Web3 wallet flows · marketplace features · KYC/user verification flows · Web2/Web3 integrations
+
+### Industrial background
+
+PLCs · SCADA · OT/IT integration · automation and controls · automotive production environments · operational reliability
+
+---
+
+## Engineering principles
+
+* Model the real workflow before choosing the technical design.
+* Keep contract and API state transitions explicit.
+* Treat authentication, wallets, providers, signatures, and external data as reliability boundaries.
+* Prefer simple, testable architectures over unnecessary complexity.
+* Use Web3 where it adds traceability, incentives, automation, or verifiable state — not as decoration.
+
+---
+
+## Links
+
+* Portfolio: https://www.alsaecas.dev/
+* LinkedIn: https://www.linkedin.com/in/alejandrosaezc/
+* GitHub: https://github.com/alsaecas
