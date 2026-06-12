@@ -3,7 +3,8 @@
 <h1 align="center">Alejandro Saez Castells</h1>
 
 <p align="center">
-  Backend & Smart Contract Engineer · Solidity/EVM · Java/Spring · TypeScript/Node · Real-world Web3 systems
+  <strong>Backend & Smart Contract Engineer</strong><br/>
+  Solidity/EVM · Java/Spring · TypeScript/Node · Production Web3 systems · Real-world workflow logic
 </p>
 
 <p align="center">
@@ -26,7 +27,7 @@ I build production-oriented backend systems, smart contracts, and Web3 integrati
 
 My background combines **industrial automation**, **backend engineering**, and **blockchain development**. That gives me a practical systems mindset: model the real workflow first, keep state transitions explicit, handle edge cases, and design software around reliability, permissions, timing, and failure modes.
 
-Current technical focus:
+**Current technical focus:**
 
 * **Backend systems:** Java/Spring Boot, TypeScript/Node.js, REST APIs, PostgreSQL, authentication, OpenAPI, CI/CD
 * **Smart contracts:** Solidity, Foundry, Hardhat, EVM, ERC standards, access control, state machines, testing
@@ -40,10 +41,10 @@ Current technical focus:
 
 ### 🏆 On-chain Flight Turnaround Checklist
 
-**Camino Network × Vueling · Decode Travel Barcelona**
+Smart-contract-backed aviation workflow built during **Decode Travel Barcelona** with **Camino Network × Vueling**.
+The project models aircraft turnaround operations through task ownership, completion states, SLA/deadline logic, KPI computation, certification, and ERC-721 reward badges.
 
-Smart-contract-backed aviation workflow where each flight turnaround can be modeled through task ownership, completion states, SLA/deadline logic, KPI computation, certification, and ERC-721 reward badges.
-
+**What it demonstrates:** smart contracts as state machines for real-world operational workflows.
 **Focus:** Solidity · TypeScript · Camino Network · IPFS · ERC-721 · workflow state · operational process modeling
 **Repo:** https://github.com/aanit-app/decode-travel-with-vueling
 
@@ -51,8 +52,9 @@ Smart-contract-backed aviation workflow where each flight turnaround can be mode
 
 ### 🎟️ Fallas Passport — ERC-1155 location-based checkpoints
 
-A location-based NFT passport concept for Fallas in Valencia. Visitors claim checkpoint stamps by scanning QR/NFC on-site; the contract verifies EIP-712 signed vouchers instead of storing physical location on-chain.
+Location-based NFT passport concept for Fallas in Valencia. Visitors claim checkpoint stamps by scanning QR/NFC on-site; the contract verifies EIP-712 signed vouchers instead of storing physical location data on-chain.
 
+**What it demonstrates:** on-chain/off-chain boundary design, signed claims, replay protection, and privacy-aware presence workflows.
 **Focus:** Solidity · Foundry · ERC-1155 · EIP-712 · signed vouchers · replay protection · QR/NFC flow
 **Repo:** https://github.com/alsaecas/fallas-passport-1155
 
@@ -60,8 +62,9 @@ A location-based NFT passport concept for Fallas in Valencia. Visitors claim che
 
 ### 🔐 Fixed-Amount ERC20 Staking with ETH Rewards
 
-A production-style staking system where users stake a fixed amount of ERC20 tokens and claim ETH rewards by period. Includes admin flows, reward funding, custom errors, events, scripts, and security-focused testing.
+Production-style staking system where users stake a fixed amount of ERC20 tokens and claim ETH rewards by period. Includes admin flows, reward funding, custom errors, events, scripts, and security-focused testing.
 
+**What it demonstrates:** reward accounting, secure token handling, admin boundaries, and Foundry-based contract validation.
 **Focus:** Solidity · Foundry · SafeERC20 · reentrancy protection · rewards · test coverage · scripts
 **Repo:** https://github.com/alsaecas/erc20-staking-eth-rewards
 
@@ -69,8 +72,9 @@ A production-style staking system where users stake a fixed amount of ERC20 toke
 
 ### 🏦 SavingsBankPro — ETH time-locked savings
 
-A Solidity/Foundry smart contract system for multiple ETH savings plans with unlock times, early-withdraw penalties, treasury routing, pause controls, and security tests.
+Solidity/Foundry smart contract system for multiple ETH savings plans with unlock times, early-withdraw penalties, treasury routing, pause controls, and security tests.
 
+**What it demonstrates:** time-based contract logic, withdrawal constraints, treasury routing, and production-style safety controls.
 **Focus:** Solidity · Foundry · time locks · penalties · pausable flows · reentrancy protection · fuzz testing
 **Repo:** https://github.com/alsaecas/savings-bank-pro-foundry
 
@@ -78,8 +82,9 @@ A Solidity/Foundry smart contract system for multiple ETH savings plans with unl
 
 ### 🧾 Chain Bounty Marketplace
 
-An on-chain bounty marketplace prototype with ERC20 rewards, escrowed bounty creation, work submissions, winner selection, deadline handling, and cancellation flows.
+On-chain bounty marketplace prototype with ERC20 rewards, escrowed bounty creation, work submissions, winner selection, deadline handling, cancellation flows, and payout execution.
 
+**What it demonstrates:** marketplace state design, escrow logic, deadline-driven flows, and clear on-chain payout rules.
 **Focus:** Solidity · OpenZeppelin · ERC20 · escrow · marketplace logic · deadline-based flows
 **Repo:** https://github.com/alsaecas/Chain-Bounty-Marketplace
 
@@ -112,6 +117,7 @@ PLCs · SCADA · OT/IT integration · automation and controls · automotive prod
 * Treat authentication, wallets, providers, signatures, and external data as reliability boundaries.
 * Prefer simple, testable architectures over unnecessary complexity.
 * Use Web3 where it adds traceability, incentives, automation, or verifiable state — not as decoration.
+* Document trade-offs clearly: assumptions, admin trust, upgrade paths, limitations, and production-hardening steps.
 
 ---
 
