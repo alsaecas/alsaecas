@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Senior Backend & Smart Contract Engineer</strong><br/>
-  Production-grade Web3 systems · Java/Spring · TypeScript/Node.js · Solidity/EVM
+  Production backend systems · Smart contracts & Web3 · Cross-platform product engineering
 </p>
 
 <p align="center">
@@ -30,20 +30,39 @@
 
 ## About me
 
-I build backend services, smart contracts, blockchain integrations, and workflow systems where **roles, permissions, money, state, deadlines, and reliability matter**.
+I build backend services, smart contracts, blockchain integrations, and production applications where **roles, permissions, money, state, deadlines, and reliability matter**.
 
-My background spans more than 15 years of engineering, from industrial automation and operational systems to backend, full-stack, and blockchain development. I bring the same mindset to software that production environments demand: explicit state, controlled failure modes, observable operations, strong testing, and designs that remain understandable under pressure.
+My background spans more than 15 years of engineering, from industrial automation and operational systems to backend, full-stack, mobile, and blockchain development. I bring the same mindset to software that production environments demand: explicit state, controlled failure modes, observable operations, strong testing, and designs that remain understandable under pressure.
 
 My current focus is the intersection of:
 
-- **Backend and identity systems** — APIs, authentication, federation, persistence, integrations, and CI/CD
-- **Smart contracts and protocol integrations** — permissions, state machines, DeFi routers, token flows, deadlines, and security boundaries
-- **Programmable payments** — agent spending policies, payment intents, wallets, receipts, and authorization rules
-- **Real-world workflows** — aviation, travel, marketplaces, team finance, identity, and operational automation
+* **Backend and identity systems** — APIs, authentication, federation, persistence, integrations, and CI/CD
+* **Smart contracts and protocol integrations** — permissions, state machines, DeFi routers, token flows, deadlines, and security boundaries
+* **Programmable payments** — agent spending policies, payment intents, wallets, receipts, and authorization rules
+* **Production product engineering** — cross-platform applications, marketplaces, operational interfaces, testing, and release delivery
+* **Real-world workflows** — aviation, travel, food marketplaces, team finance, identity, and operational automation
 
 ---
 
 ## Featured engineering work
+
+### 🍳 Cooking
+
+**A production mobile marketplace connecting customers with nearby local kitchens.**
+
+Cooking is a two-sided product composed of an Android and iOS customer application and a dedicated Android manager application used by kitchens for daily operations.
+
+I contribute across the customer application, the store-facing manager experience, and supporting API behaviour. My work includes marketplace discovery, maps, menus, favourites, cart state, authentication, sharing, order UX, store order workflows, notifications, product availability, automated testing, release configuration, and production troubleshooting.
+
+The project requires maintaining consistent product state across customer and kitchen workflows while handling Android- and iOS-specific behaviour, mobile failure states, native dependencies, and app-store delivery.
+
+**Demonstrates:** production mobile engineering · two-sided marketplaces · cross-platform reliability · operational software · state management · automated mobile testing · release readiness
+
+**Stack:** React Native · Expo · TypeScript · Expo Router · TanStack Query · Jotai · Supabase · EAS Build · Jest · Maestro
+
+[Case study](https://www.alsaecas.dev/projects/cooking) · [Product website](https://www.cookingpro.es/) · [Customer app · Google Play](https://play.google.com/store/apps/details?id=com.cooking.marketplaceapp) · [Customer app · App Store](https://apps.apple.com/es/app/cooking-comida-casera/id6753148870)
+
+---
 
 ### ⚡ CSPR AgentPay Guard
 
@@ -129,33 +148,34 @@ It was designed to shorten the feedback loop for developers building and testing
 
 ## Production backend engineering
 
-Alongside my public Web3 work, I build backend and identity systems using **Java, Spring Boot, PostgreSQL, Keycloak, REST APIs, OpenAPI, Docker, Gradle, and CI/CD**.
+Alongside my public Web3 and product work, I build backend and identity systems using **Java, Spring Boot, PostgreSQL, Keycloak, REST APIs, OpenAPI, Docker, Gradle, and CI/CD**.
 
 My professional work includes:
 
-- Identity federation, SSO, authentication flows, and role synchronization
-- Keycloak extensions, authenticators, event listeners, and client policies
-- REST and gRPC service design
-- Database modeling and Flyway migrations
-- External provider and blockchain integrations
-- Authorization and account lifecycle rules
-- Automated unit and integration testing
-- Production debugging, system upgrades, and deployment workflows
+* Identity federation, SSO, authentication flows, and role synchronization
+* Keycloak extensions, authenticators, event listeners, and client policies
+* REST and gRPC service design
+* Database modeling and Flyway migrations
+* External provider and blockchain integrations
+* Authorization and account lifecycle rules
+* Automated unit and integration testing
+* Production debugging, system upgrades, and deployment workflows
 
 ---
 
 ## Technical focus
 
-| Area | Technologies |
-|---|---|
-| **Backend systems** | Java, Spring Boot, Node.js, TypeScript, REST, gRPC, PostgreSQL, MongoDB, OpenAPI |
-| **Identity and security** | Keycloak, SSO, OAuth2, role-based access control, federation, policy enforcement |
-| **Smart contracts** | Solidity, Foundry, Hardhat, OpenZeppelin, EVM, ERC-20, ERC-721, ERC-1155, EIP-712 |
-| **DeFi and payments** | Uniswap V2 integrations, token allowances, slippage, fork testing, Tether WDK, payment policies |
-| **Blockchain ecosystems** | Ethereum/EVM, Arbitrum, Camino Network, Casper, wallets, IPFS |
-| **Infrastructure** | Docker, GitHub Actions, GitLab CI/CD, Gradle, Vercel, AWS services |
-| **Frontend and product** | React, Next.js, wagmi, viem, wallet flows, dashboards, marketplaces, KYC integrations |
-| **Industrial systems** | PLCs, SCADA, automation, controls, OT/IT integration, automotive production |
+| Area                      | Technologies                                                                                    |
+| ------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Backend systems**       | Java, Spring Boot, Node.js, TypeScript, REST, gRPC, PostgreSQL, MongoDB, OpenAPI                |
+| **Identity and security** | Keycloak, SSO, OAuth2, role-based access control, federation, policy enforcement                |
+| **Smart contracts**       | Solidity, Foundry, Hardhat, OpenZeppelin, EVM, ERC-20, ERC-721, ERC-1155, EIP-712               |
+| **DeFi and payments**     | Uniswap V2 integrations, token allowances, slippage, fork testing, Tether WDK, payment policies |
+| **Blockchain ecosystems** | Ethereum/EVM, Arbitrum, Camino Network, Casper, wallets, IPFS                                   |
+| **Mobile products**       | React Native, Expo, Android, iOS, Expo Router, TanStack Query, Jotai, EAS Build, Maestro        |
+| **Frontend and product**  | React, Next.js, TypeScript, wagmi, viem, dashboards, marketplaces, wallet and KYC flows         |
+| **Infrastructure**        | Docker, GitHub Actions, GitLab CI/CD, Gradle, Vercel, AWS services                              |
+| **Industrial systems**    | PLCs, SCADA, automation, controls, OT/IT integration, automotive production                     |
 
 ---
 
@@ -196,30 +216,31 @@ ERC-20-funded bounty marketplace with escrow, submissions, deadlines, winner sel
 
 ## How I approach engineering
 
-- Start with the actors, rules, constraints, and failure modes—not the framework.
-- Keep contract and API state transitions explicit and testable.
-- Treat authentication, wallets, signatures, providers, tokens, and external protocols as reliability boundaries.
-- Separate demonstrable functionality from assumptions, simulations, and future production work.
-- Use blockchain where it provides verifiable state, traceability, programmable authorization, or meaningful automation.
-- Test isolated behavior with mocks and external integrations against reproducible environments.
-- Document architecture, trade-offs, trust assumptions, limitations, and production-hardening requirements.
+* Start with the actors, rules, constraints, and failure modes—not the framework.
+* Keep contract, application, and API state transitions explicit and testable.
+* Treat authentication, wallets, signatures, providers, mobile platforms, tokens, and external protocols as reliability boundaries.
+* Separate demonstrable functionality from assumptions, simulations, and future production work.
+* Use blockchain where it provides verifiable state, traceability, programmable authorization, or meaningful automation.
+* Test isolated behavior with mocks and external integrations against reproducible environments.
+* Validate critical product journeys across the platforms and device states where they run.
+* Document architecture, trade-offs, trust assumptions, limitations, and production-hardening requirements.
 
 ---
 
 ## Currently exploring
 
-- Autonomous-agent payments and HTTP 402 workflows
-- Policy-controlled wallets and programmable payment authorization
-- DeFi protocol integrations and secure token flows
-- Reproducible mainnet-fork testing
-- On-chain proof and audit systems
-- Blockchain-backed operational workflows
-- Backend and identity infrastructure for Web3 products
+* Autonomous-agent payments and HTTP 402 workflows
+* Policy-controlled wallets and programmable payment authorization
+* DeFi protocol integrations and secure token flows
+* Reproducible mainnet-fork testing
+* On-chain proof and audit systems
+* Blockchain-backed operational workflows
+* Reliable cross-platform applications connected to backend and identity systems
 
 ---
 
 ## Let’s connect
 
-I am open to remote opportunities involving **senior backend engineering, smart contracts, DeFi integrations, blockchain platforms, Web3 infrastructure, programmable payments, and technically ambitious product development**.
+I am open to remote opportunities involving **senior backend engineering, smart contracts, DeFi integrations, blockchain platforms, Web3 infrastructure, programmable payments, production mobile products, and technically ambitious product development**.
 
 [Portfolio](https://www.alsaecas.dev/) · [LinkedIn](https://www.linkedin.com/in/alejandrosaezc/) · [Contact](https://www.alsaecas.dev/contact)
