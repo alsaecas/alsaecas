@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Senior Backend & Smart Contract Engineer</strong><br/>
-  Production systems · Protocol engineering · Identity & security · Programmable payments
+  Production systems · Protocol engineering · DeFi · Identity & security
 </p>
 
 <p align="center">
@@ -37,8 +37,8 @@ My background spans more than 15 years of engineering, from industrial automatio
 My work now sits mainly at the intersection of:
 
 - **Backend & identity systems** — Kotlin, Java, Spring Boot, PostgreSQL, Keycloak, OAuth2/OIDC, APIs, messaging, integrations, CI/CD
-- **Smart contracts & protocol engineering** — Solidity, EVM, signed intents, state machines, token flows, escrow, vesting, replay protection, security boundaries
-- **DeFi & programmable payments** — allowances, settlement, pricing, oracle normalization, payment policies, self-custody and request-bound authorization
+- **Smart contracts & protocol engineering** — Solidity, EVM, ERC-4626, signed intents, state machines, token flows, settlement, replay protection, security boundaries
+- **DeFi & programmable payments** — Aave V3, Morpho, vault accounting, constrained rebalancing, allowances, pricing, self-custody and request-bound authorization
 - **Production product engineering** — React Native, React/Next.js, TypeScript, mobile marketplaces, operational workflows and release delivery
 
 > I care less about adding blockchain to a product than about using it where verifiable state, programmable authorization, settlement, traceability, or shared trust genuinely improves the system.
@@ -47,13 +47,37 @@ My work now sits mainly at the intersection of:
 
 # Featured engineering work
 
-These projects show three different sides of my engineering profile: **production delivery**, **protocol/security depth**, and **end-to-end Web3 execution**.
+These projects show four complementary sides of my engineering profile: **DeFi infrastructure**, **protocol/security depth**, **end-to-end Web3 execution**, and **production delivery**.
 
 | Project | Primary signal | Highlights |
 | --- | --- | --- |
+| **[Adaptive Yield](https://github.com/alsaecas/adaptive-yield)** | DeFi protocol engineering | ERC-4626 · Aave V3 · Morpho · Base forks · constrained rebalancing · fuzzing · invariants |
 | **[OrderForge](https://github.com/alsaecas/orderforge)** | Protocol & smart-contract security | EIP-712 · ERC-1271 · partial fills · replay protection · fuzzing · stateful invariants |
 | **[LaunchProof](https://github.com/alsaecas/launchproof)** | End-to-end Web3 engineering | token sale · escrow · refunds · vesting · oracles · Sepolia deployment · frontend |
 | **[Cooking](https://www.alsaecas.dev/projects/cooking)** | Production product engineering | real marketplace · Android/iOS · kitchen operations · state management · release delivery |
+
+---
+
+## 🌾 Adaptive Yield
+
+**Risk-aware ERC-4626 yield optimization infrastructure for USDC on Base.**
+
+Adaptive Yield is a security-conscious DeFi protocol foundation that separates custody and enforceable risk constraints from future off-chain allocation intelligence. The public vault can hold idle USDC or allocate to approved strategies while enforcing strategy allowlists, percentage exposure caps, an idle-liquidity floor, bounded rebalancing, role separation, and emergency controls.
+
+The current milestone integrates **Aave V3** through a supply-only adapter and **Morpho** through a reusable ERC-4626 strategy, with both exercised against real Base protocol state through Foundry mainnet-fork tests.
+
+### Verified engineering baseline
+
+**28-test standard suite** · **5,000-run fuzz property** · **3 stateful invariants at 131,072 calls each**  
+**3/3 Base fork tests** · Aave V3 + Morpho integration · Slither review · gas snapshot · consolidated GitHub Actions CI
+
+The adversarial suite covers donation/inflation behaviour, fee-on-transfer rejection, reentrancy rollback, reverting strategies, short withdrawals, valuation failure, illiquidity, exposure limits, rescue restrictions, and emergency recall paths.
+
+**Stack:** Solidity · Foundry · OpenZeppelin · Aave V3 · Morpho · ERC-4626 · Base · Slither · GitHub Actions
+
+[Source code](https://github.com/alsaecas/adaptive-yield) · [Architecture](https://github.com/alsaecas/adaptive-yield/blob/main/docs/ARCHITECTURE.md) · [Threat model](https://github.com/alsaecas/adaptive-yield/blob/main/docs/THREAT_MODEL.md) · [Economics](https://github.com/alsaecas/adaptive-yield/blob/main/docs/ECONOMICS.md) · [Testing](https://github.com/alsaecas/adaptive-yield/blob/main/docs/TESTING.md)
+
+> Experimental and unaudited. Adaptive Yield is not presented as production-ready financial infrastructure and has not been deployed with real capital.
 
 ---
 
@@ -209,9 +233,9 @@ Representative engineering areas include:
 | --- | --- |
 | **Backend** | Kotlin · Java · Spring Boot · Node.js · TypeScript · REST · gRPC · PostgreSQL · MongoDB · OpenAPI |
 | **Identity & security** | Keycloak · OAuth2 · OpenID Connect · SSO · federation · RBAC · policy enforcement |
-| **Smart contracts** | Solidity · Foundry · Hardhat · OpenZeppelin · EVM · EIP-712 · ERC-1271 · ERC-20/721/1155 |
-| **Protocol testing** | Unit tests · fuzzing · stateful invariants · behavioural mocks · fork tests · reentrancy tests · Slither |
-| **DeFi & payments** | signed intents · settlement · Uniswap V2 · allowances · slippage · Chainlink-compatible feeds · payment policies |
+| **Smart contracts** | Solidity · Foundry · Hardhat · OpenZeppelin · EVM · ERC-4626 · EIP-712 · ERC-1271 · ERC-20/721/1155 |
+| **Protocol testing** | Unit tests · fuzzing · stateful invariants · behavioural mocks · mainnet-fork tests · reentrancy tests · Slither |
+| **DeFi & payments** | Aave V3 · Morpho · ERC-4626 vaults · constrained rebalancing · signed intents · settlement · Uniswap V2 · allowances · slippage · payment policies |
 | **Web3 application** | React · Next.js · TypeScript · wagmi · viem · RainbowKit · wallet flows · transaction UX |
 | **Mobile** | React Native · Expo · Android · iOS · TanStack Query · Jotai · EAS Build · Jest · Maestro |
 | **Infrastructure** | Docker · Docker Compose · GitHub Actions · GitLab CI/CD · Gradle · Vercel · AWS services |
@@ -257,6 +281,7 @@ Representative engineering areas include:
 
 ## Currently exploring
 
+- Risk-aware ERC-4626 allocation across lending and yield strategies
 - Signed intents, settlement and replay-safe authorization
 - Stateful invariant testing and adversarial smart-contract verification
 - Secure token distribution, escrow, refunds and vesting
@@ -268,7 +293,7 @@ Representative engineering areas include:
 ---
 
 <p align="center">
-  <strong>Backend systems. Smart contracts. Identity. Payments. Production software.</strong>
+  <strong>Backend systems. Smart contracts. DeFi. Identity. Production software.</strong>
 </p>
 
 <p align="center">
